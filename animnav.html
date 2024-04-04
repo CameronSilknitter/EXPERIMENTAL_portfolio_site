@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animated Nav</title>
+        <link rel="stylesheet" type="text/css" href="animnav.css">
+    </head>
+    <body>
+        <ul class="navigation">
+            <span class="toggleMenu"></span>
+        </ul>
+        <script>
+            Let toggleMenu = document.querySelector('toggleMenu')
+            Let navigation = document.querrySelector('navigation');
+            toggleMenu.onclick = function(){
+                navigation.classList.toggle('active')
+            }
+        </script>
+    </body>
+</html>

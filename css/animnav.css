@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(90, 90, 90) rgb(136, 125, 125));
+}
+
+.navigation
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+    transform: 0.5s;
+    box-shadow: 0 10px 15px rgb(45, 44, 44)
+}
+
+.navigation.active
+{
+    width: 600px;
+}
+
+.navigation .toggleMenu
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: lightseagreen;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
